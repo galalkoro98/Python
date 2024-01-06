@@ -1,5 +1,5 @@
 my_list = [8, 10, 6, 2, 4, 1]
-my_list.sort()
+# my_list.sort()
 
 # for i in range(len(my_list) - 1):
 #     if my_list[i] > my_list[i + 1]:
@@ -8,13 +8,15 @@ my_list.sort()
 
 # print("Final sorted list:", my_list)
 
-# swapped = True
+swapped = True
+length = len(my_list)
+the_range = range(length -1)
 
-# while swapped:
-#     swapped = False
-#     for i in range(len(my_list) - 1):
-#         if my_list[i] > my_list[i + 1]:
-#             swapped = True
-#             my_list[i], my_list[i + 1] = my_list[i + 1], my_list[i]
+while swapped:
+    swapped = False
+    for i in the_range:
+        if my_list[i] > my_list[i + 1]:
+            swapped = True
+            my_list[i], my_list[i + 1] = my_list[i + 1], my_list[i]
 
 print(my_list)
