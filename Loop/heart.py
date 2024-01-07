@@ -10,7 +10,7 @@ screen.bgcolor("white")
 pen = turtle.Turtle()
 pen.color('green')
 pen.fillcolor('blue')
-pen.speed(2)
+pen.speed(4)
 pen.begin_fill()
 
 # Draw the heart shape
