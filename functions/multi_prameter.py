@@ -32,5 +32,4 @@
 
 for number in range(10):
     print(number)
-
 print(number)
